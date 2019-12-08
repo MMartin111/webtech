@@ -1,0 +1,28 @@
+
+<div class="manufacturerAdder">
+    <div class="Text">
+        You can add a manufacturer here to the database:
+    </div>
+    <form id="manufacturerForm" method="post">
+        <table class="formTable">
+            <tr>
+                <td><h3>Name</h3><p><input type="text" name="name" required id="name" placeholder="Name"/></p></td>
+                <td><h3>Country</h3><p><input type="text" required name="country" id="country" placeholder="Country"/></p></td>
+                <td><h3>Founded</h3><p><input type="date" required name="founded" id="founded" placeholder="Founded in"/></p></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><button class="submit-button" type="submit">Add manufacturer</button></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div class="Text">
+    You can see the manufacturers here:
+</div>
+
+<div id="manufacturersTable">
+
+</div>
